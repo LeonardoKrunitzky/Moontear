@@ -1,0 +1,88 @@
+.profileHeader { text-align: center; margin-bottom: 50px; }
+
+.profilePic img {
+  width: 160px; height: 160px; border-radius: 50%;
+  object-fit: cover; border: 2px solid var(--glass-border);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+.profilePic img:hover { transform: scale(1.05); }
+
+.quote { font-size: 1.1rem; color: var(--text-muted); font-style: italic; }
+
+.glitchName {
+  position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  /* O segredo está em chamar a animação aqui diretamente */
+  text-shadow: 0.05em 0 0 rgba(255, 0, 80, 0.75),
+               -0.025em -0.05em 0 rgba(0, 255, 200, 0.75),
+               0.025em 0.05em 0 rgba(255, 255, 0, 0.75);
+  animation: glitch 500ms infinite;
+}
+
+.glitchName::before,
+.glitchName::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.glitchName::before {
+  animation: glitch 650ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-0.025em, -0.0125em);
+  color: #ff0050;
+}
+
+.glitchName::after {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+  transform: translate(0.0125em, 0.025em);
+  color: #00ffc8;
+}
+
+/* Keyframes para o movimento instável */
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 80, 0.75),
+                 -0.05em -0.025em 0 rgba(0, 255, 200, 0.75),
+                 -0.025em 0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 80, 0.75),
+                 -0.05em -0.025em 0 rgba(0, 255, 200, 0.75),
+                 -0.025em 0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 80, 0.75),
+                 0.025em 0.025em 0 rgba(0, 255, 200, 0.75),
+                 -0.05em -0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 80, 0.75),
+                 0.025em 0.025em 0 rgba(0, 255, 200, 0.75),
+                 -0.05em -0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 80, 0.75),
+                 0.05em 0 0 rgba(0, 255, 200, 0.75),
+                 0 -0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 80, 0.75),
+                 0.05em 0 0 rgba(0, 255, 200, 0.75),
+                 0 -0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 80, 0.75),
+                 -0.025em -0.025em 0 rgba(0, 255, 200, 0.75),
+                 -0.025em -0.05em 0 rgba(255, 255, 0, 0.75);
+  }
+}

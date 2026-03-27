@@ -1,0 +1,8 @@
+.bottomImage {
+  position: fixed; bottom: 20px; left: 20px; z-index: 1000;
+  pointer-events: none; width: 100px; opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .bottomImage { width: 70px; bottom: 10px; left: 10px; }
+}
