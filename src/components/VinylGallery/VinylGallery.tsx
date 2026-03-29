@@ -26,10 +26,10 @@ export default function VinylGallery() {
     <section>
       <h3 className="text-center">Currently listening to:</h3>
       <div className="flex-center">
-        <a href="https://open.spotify.com/user/leonardozkl" rel="ugc">
+        <a href={process.env.SPOTIFY_PROFILE} rel="ugc">
           <Image
             style={{ borderRadius: "12px" }}
-            src="https://novatorem-envyositys-projects.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff"
+            src={process.env.SPOTIFY_NOVATOREM || ""}
             alt="Spotify"
             width={400}
             height={100}
@@ -44,7 +44,7 @@ export default function VinylGallery() {
         style={{ width: "100%", overflow: "hidden", padding: "10px 0" }}
       >
         <a
-          href="https://www.exophase.com/user/Dredgen_LeoK/"
+          href={process.env.NEXT_PUBLIC_EXOPHASE}
           rel="ugc"
         >
           <Image
