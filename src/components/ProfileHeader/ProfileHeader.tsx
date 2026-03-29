@@ -7,13 +7,13 @@ export default function ProfileHeader() {
       <div className={styles.profilePic}>
         <Image 
           src="/images/pfp.jpg" 
-          alt="𝓔𝓷𝓿𝔂's profile picture" 
+          alt="𝓛𝓮𝓸𝓷𝓪𝓻𝓭𝓸's profile picture" 
           width={160}
           height={160}
           unoptimized
         />
       </div>
-      <h1 className={styles.glitchName} data-text="𝓔𝓷𝓿𝔂">𝓔𝓷𝓿𝔂</h1>
+      <h1 className={styles.glitchName} data-text="𝓛𝓮𝓸𝓷𝓪𝓻𝓭𝓸">𝓛𝓮𝓸𝓷𝓪𝓻𝓭𝓸</h1>
       <p className={styles.quote}>&quot;Life is precisely the finite&quot;</p>
     </header>
   );
