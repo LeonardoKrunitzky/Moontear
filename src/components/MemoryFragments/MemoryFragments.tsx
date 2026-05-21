@@ -313,9 +313,19 @@ const memoryFragmentsData = [
     image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
   },
   {
-    en: "Snap out of it! Think about what lies ahead!",
+    en: "Snap out of it! Think about what lies ahead, not behind!",
     pt: "Se Recomponha! Pense no futuro, não no passado!",
     image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
+  },
+  {
+    en: "I would like to have you watch my back. You understandd, don't you, that by leaving my back to you, you can shoot me from behind at any time? Ifd i ever step off the path, shoot me.",
+    pt: "Quero que você proteja minhas costas. Você entende? Já que você protege minhas costas, pode atirar por trás a qualquer momento. Se eu desviar do meu caminho, atire na mesma hora.",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_mustang.gif",
+  },
+  {
+    en: "I think that seeking possibilities without being bound by laws is necessary for humanity to advaance.",
+    pt: "Acho que buscar possibilidades sem se prender a princípios é algo necessário para a humanidade progredir.",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_alphonse.gif",
   }
 ];
 
