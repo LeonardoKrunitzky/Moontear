@@ -19,10 +19,10 @@ export default function BackgroundOST() {
         .play()
         .then(() => {
           const fadeInterval = setInterval(() => {
-            if (audio.volume < 0.95) {
-              audio.volume += 0.05;
+            if (audio.volume < 0.15) {
+              audio.volume += 0.005;
             } else {
-              audio.volume = 1.0;
+              audio.volume = 0.15;
               clearInterval(fadeInterval);
             }
           }, 200);
