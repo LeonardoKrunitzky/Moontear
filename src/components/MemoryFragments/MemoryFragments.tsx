@@ -310,12 +310,12 @@ const memoryFragmentsData = [
   {
     en: "So i'm sure we can change. Because we're weak. Because we die.",
     pt: "Por isso sei que vamos conseguir mudar. Justamente porque somos fracos e porque a morte é inevitável.",
-    image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif",
   },
   {
     en: "Snap out of it! Think about what lies ahead, not behind!",
     pt: "Se Recomponha! Pense no futuro, não no passado!",
-    image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif",
   },
   {
     en: "I would like to have you watch my back. You understandd, don't you, that by leaving my back to you, you can shoot me from behind at any time? Ifd i ever step off the path, shoot me.",
@@ -326,7 +326,17 @@ const memoryFragmentsData = [
     en: "I think that seeking possibilities without being bound by laws is necessary for humanity to advaance.",
     pt: "Acho que buscar possibilidades sem se prender a princípios é algo necessário para a humanidade progredir.",
     image: "/images/animes/fullmetal_alchemist_brotherhood_alphonse.gif",
-  }
+  },
+  {
+    en: "Humans are supposed to be so much weaker than you Homunculi, and yet even when we're beaten dowwn, and get discouraged or seem like we're about to go astray and fall, we still stand up to the challenge, again and again. Those who are around us pick us back up. And you're envious of humans like that.",
+    pt: "Humanos deviam ser bem mais fracos que vocês, Homúnculos, mesmo sem esperanças depois de uma derrota e prestes a cair e se perder, eles continuam se erguendo e lutando. E você tem inveja desses humanos",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif",
+  },
+  {
+    en: "We adults can't very well be caught lying down while the youngsters are fighting. What if we adults, who carry the burden of this world, failed to show the youngsters, who will carry the burden of this world after us, the way to live?",
+    pt: "Nós, adultos, não podemos ficar parados enquanto os jovens lutam. Temos que mostrar pros jovens que comandarão o mundo daqui pra frente, como nós, adultos, conduzimos o  mundo e vivemos nossas vidas.",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_olivier.gif",
+  },
 ];
 
 export default function MemoryFragments() {
