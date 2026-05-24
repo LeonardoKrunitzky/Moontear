@@ -323,7 +323,7 @@ const memoryFragmentsData = [
     image: "/images/animes/fullmetal_alchemist_brotherhood_mustang.gif",
   },
   {
-    en: "I think that seeking possibilities without being bound by laws is necessary for humanity to advaance.",
+    en: "I think that seeking possibilities without being bound by laws is necessary for humanity to advance.",
     pt: "Acho que buscar possibilidades sem se prender a princípios é algo necessário para a humanidade progredir.",
     image: "/images/animes/fullmetal_alchemist_brotherhood_alphonse.gif",
   },
@@ -337,10 +337,15 @@ const memoryFragmentsData = [
     pt: "Nós, adultos, não podemos ficar parados enquanto os jovens lutam. Temos que mostrar pros jovens que comandarão o mundo daqui pra frente, como nós, adultos, conduzimos o  mundo e vivemos nossas vidas.",
     image: "/images/animes/fullmetal_alchemist_brotherhood_olivier.gif",
   },
+  {
+    en: "There's no point to lessons that don't bring with them pain. People can't gain anything without sacrificing something, after all. But once you've successfully endured that pain, you gain a heart that is stout enough not to be overcome by anything. Yeah, a heart made fullmetal.",
+    pt: "Uma lição sem dor não tem sentido. Porque não é possivel obter nada sem um sacrifício. Mas ao suportar e superar a dor... ele conseguirá um coração enorme e incomparável. Isso mesmo. Um coração feito de aço.",
+    image: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif",
+  }
 ];
 
 export default function MemoryFragments() {
-  const [language, setLanguage] = useState<"en" | "pt">("en");
+  const [language, setLanguage] = useState<"en" | "pt">("pt");
 
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === "en" ? "pt" : "en"));

@@ -27,7 +27,7 @@ export default function VinylGallery() {
 
   return (
     <section>
-      <h3 className="text-center">Currently listening to:</h3>
+      <h3 className="text-center">Atualmente estou ouvindo:</h3>
       <div className="flex-center">
           <a href={process.env.NEXT_PUBLIC_SPOTIFY_NOVATOREM} rel="ugc">
             <Image
@@ -41,7 +41,7 @@ export default function VinylGallery() {
           </a>
       </div>
 
-      <h3 className="text-center">Recent played games:</h3>
+      <h3 className="text-center">Recentemente estou jogando:</h3>
       <div
         className="flex-center"
         style={{ width: "100%", overflow: "hidden", padding: "10px 0" }}
