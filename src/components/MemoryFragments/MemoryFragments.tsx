@@ -90,6 +90,16 @@ const memoryFragmentsData = [
     image: "/images/games/persona_4.gif",
   },
   {
+    en: "Whats important isn't what you are, this town i hated so much? Now i love it. There's still nothing here, but i have family and friends. The important things are never far off... They're all arround you.",
+    pt: "O importante não é o que você é. Esta cidade que eu tanto odiava? Agora eu a amo. Ainda não há nada aqui, mas eu tenho família e amigos. As coisas importantes nunca estão longe... Elas estão todas ao seu redor.",
+    image: "/images/games/persona_4.gif",
+  },
+  {
+    en: 'I always wanted to be "Special", i thought my life\'d finally have meaning if i was "Special" to someone. Just being born, living your life... Before you know it you\'re already special to someone.',
+    pt: 'Eu sempre quis ser "Especial", achei que minha vida finalmente teria sentido se eu fosse "Especial" para alguém. Apenas nascer, viver a sua vida... Antes que perceba, você já é especial para alguém.',
+    image: "/images/games/persona_4.gif",
+  },
+  {
     en: "If you want to change the world, you have to be the one to do it.",
     pt: "Se você quer mudar o mundo, você tem que ser aquele a fazer isso.",
     image: "/images/games/persona_5.gif",
@@ -341,7 +351,22 @@ const memoryFragmentsData = [
     en: "There's no point to lessons that don't bring with them pain. People can't gain anything without sacrificing something, after all. But once you've successfully endured that pain, you gain a heart that is stout enough not to be overcome by anything. Yeah, a heart made fullmetal.",
     pt: "Uma lição sem dor não tem sentido. Porque não é possivel obter nada sem um sacrifício. Mas ao suportar e superar a dor... ele conseguirá um coração enorme e incomparável. Isso mesmo. Um coração feito de aço.",
     image: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif",
-  }
+  },
+  {
+    en: "The Angel that presided o'er my birth said, 'Little creature, form'd of Joy and Mirth, go love without the help of any Thing on Earth.'",
+    pt: "O anjo que presidiu o meu nascimento disse: 'Pequena criatura, formada de alegria e contentamento, vá e ame sem a ajuda de qualquer coisa na Terra.'",
+    image: "/images/games/devil_may_cry_5_V.gif",
+  },
+  {
+    en: "One thought fills immensity...",
+    pt: "Um pensamento preenche a imensidão...'",
+    image: "/images/games/devil_may_cry_5_V.gif",
+  },
+  {
+    en: "The hours of folly are measured by the clock, but of wisdom, no clock can measure.",
+    pt: "As horas de tolice são medidas pelo relógio, mas da sabedoria, nenhum relógio pode medir.",
+    image: "/images/games/devil_may_cry_5_V.gif",
+  },
 ];
 
 export default function MemoryFragments() {
