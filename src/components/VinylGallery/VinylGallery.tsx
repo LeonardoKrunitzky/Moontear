@@ -24,21 +24,20 @@ const vinyls = [
 ];
 
 export default function VinylGallery() {
-
   return (
     <section>
       <h3 className="text-center">Atualmente estou ouvindo:</h3>
       <div className="flex-center">
-          <a href={process.env.NEXT_PUBLIC_SPOTIFY_NOVATOREM} rel="ugc">
-            <Image
-              style={{ borderRadius: "12px" }}
-              src={process.env.NEXT_PUBLIC_SPOTIFY_IMAGE || ""}
-              alt="Spotify"
-              width={400}
-              height={100}
-              unoptimized
-            />
-          </a>
+        <a href={process.env.NEXT_PUBLIC_SPOTIFY_NOVATOREM} rel="ugc">
+          <Image
+            style={{ borderRadius: "12px" }}
+            src={process.env.NEXT_PUBLIC_SPOTIFY_IMAGE || ""}
+            alt="Spotify"
+            width={400}
+            height={100}
+            unoptimized
+          />
+        </a>
       </div>
 
       <h3 className="text-center">Recentemente estou jogando:</h3>
@@ -46,10 +45,7 @@ export default function VinylGallery() {
         className="flex-center"
         style={{ width: "100%", overflow: "hidden", padding: "10px 0" }}
       >
-        <a
-          href={process.env.NEXT_PUBLIC_EXOPHASE_PROFILE}
-          rel="ugc"
-        >
+        <a href={process.env.NEXT_PUBLIC_EXOPHASE_PROFILE} rel="ugc">
           <Image
             style={{
               borderRadius: "8px",
@@ -66,6 +62,9 @@ export default function VinylGallery() {
         </a>
       </div>
 
+      <h3 className="text-center" style={{ marginTop: "40px" }}>
+        Artistas que curto ouvir:
+      </h3>
       <div className={styles.vinylGallery}>
         {vinyls.map((v, i) => (
           <div key={i} className={styles.vinyl}>

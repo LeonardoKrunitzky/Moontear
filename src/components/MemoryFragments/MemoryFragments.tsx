@@ -358,6 +358,11 @@ const memoryFragmentsData = [
     image: "/images/games/devil_may_cry_5_V.gif",
   },
   {
+    en: "To see a world in a grain of sand, And a heaven in a wild flower, hold infinity in the palm of your hand, and eternity in an hour.",
+    pt: "Para ver um mundo num grão de areia, e um céu numa flor silvestre, segurar o infinito na palma da mão,e a eternidade em uma hora.",
+    image: "/images/games/devil_may_cry_5_V.gif",
+  },
+  {
     en: "One thought fills immensity...",
     pt: "Um pensamento preenche a imensidão...'",
     image: "/images/games/devil_may_cry_5_V.gif",

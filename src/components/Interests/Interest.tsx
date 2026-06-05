@@ -32,10 +32,15 @@ const gifs = [
 
 export default function Interests() {
   return (
-    <div className={styles.interests}>
+    <section className={styles.interests}>
+      <header className={styles.header}>
+        <h2 className={styles.title}>Minhas Inspirações</h2>
+        <p className={styles.subtitle}>Obras e universos que moldam minha visão e criatividade.</p>
+      </header>
+      
       <div className={styles.masonryGrid}>
         {gifs.map((g, i) => <GifCard key={i} {...g} />)}
       </div>
-    </div>
+    </section>
   );
 }
