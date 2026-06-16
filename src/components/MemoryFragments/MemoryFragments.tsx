@@ -271,6 +271,11 @@ const memoryFragmentsData = [
     image: "/images/games/metal_gear_solid_2.gif",
   },
   {
+    en: "Life isn't just about passing on your genes. We can leave behind much more than just DNA, through speech, music literature and movies... what we've seen, heard, felt. Anger, joy, sorrow, these are the things i will pass on. That's what i live for, we need to pass the torch",
+    pt: "A vida não se resume a transmitir nossos genes. Podemos deixar muito mais do que apenas DNA, através da fala, da música, da literatura e dos filmes... o que vimos, ouvimos, sentimos. Raiva, alegria, tristeza, essas são as coisas que transmitirei. É para isso que vivo, precisamos passar o bastão.",
+    image: "/images/games/metal_gear_solid_2.gif",
+  },
+  {
     en: "Never give up. Fight until the end. Always believe you will succeed, even when the odds are against you.",
     pt: "Nunca desista. Lute até o fim. Sempre acredite que você vai ter sucesso, mesmo quando as chances estiverem contra você.",
     image: "/images/games/metal_gear_solid_3.gif",
