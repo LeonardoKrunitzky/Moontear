@@ -4,7 +4,7 @@ import BottomBonfire from '@/components/BottomBonfire/BottomBonfire';
 import CrtOverlay from '@/components/CrtOverlay/CrtOverlay';
 
 export const metadata = {
-  title: '𝓓𝓻𝓮𝓭𝓰𝓮𝓷',
+  title: '𝓜𝓸𝓸𝓷𝓽𝓮𝓪𝓻',
   description: 'Life is precisely the finite',
 };
 
