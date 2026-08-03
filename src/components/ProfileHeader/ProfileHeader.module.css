@@ -86,3 +86,16 @@
                  -0.025em -0.05em 0 rgba(255, 255, 0, 0.75);
   }
 }
+
+.welcomeNoir {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #555555 0%, #ffffff 50%, #555555 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.9));
+  opacity: 0.9;
+}
