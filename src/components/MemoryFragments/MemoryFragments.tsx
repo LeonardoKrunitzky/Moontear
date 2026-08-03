@@ -389,7 +389,7 @@ export default function MemoryFragments() {
   return (
     <div className={styles["memory-container"]}>
       <header className={styles["memory-header"]}>
-        <h2>Memory Fragments</h2>
+        <h2>Frases que me inspiraram ou achei foda</h2>
 
         <button
           className={styles["translate-btn"]}
