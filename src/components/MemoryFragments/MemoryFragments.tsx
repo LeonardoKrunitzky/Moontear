@@ -175,6 +175,11 @@ const memoryFragmentsData = [
     image: "/images/games/persona_3.gif",
   },
   {
+    en: "When I say something my old friends would say and realize I'm a mosaic of all the people I loved and who mattered to me in my life",
+    pt: "Quando digo algo que meus velhos amigos diriam e percebo que sou um mosaico de todas as pessoas que amei e que foram importantes na minha vida.",
+    image: "/images/games/persona_3_ending.gif",
+  },
+  {
     en: "Life goes on, with or without you.",
     pt: "A vida continua, com ou sem você.",
     image: "/images/games/persona_4.gif",
