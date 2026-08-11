@@ -7,7 +7,7 @@ export default function BackgroundOST() {
 
   useEffect(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio("/audio/iwatodai_dorm.mp3");
+      audioRef.current = new Audio("/audio/Letter-from_The_Lost_Day.mp3");
     }
 
     const audio = audioRef.current;
