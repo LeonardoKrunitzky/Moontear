@@ -295,6 +295,11 @@ const memoryFragmentsData = [
     pt: "Todos nós devemos expiar os nossos próprios pecados. Não devemos passá-los para a próxima geração. Não devemos deixá-los para o futuro. Essa é a nossa verdadeira missão.",
     image: "/images/games/metal_gear_solid_4.gif",
   },
+  {
+    en: "It's not about changing the world, but about doing our best to leave the world the way it is; it's about respecting the will of others and believing in your own.",
+    pt: "Não se trata de mudar o mundo, mas sim de fazer o nosso melhor para deixar o mundo da forma que é, é sobre respeitar a vontade dos outros e acreditar na sua prórpia",
+    image: "/images/games/metal_gear_solid_4.gif",
+  },
 
   // Silent Hill
   {
