@@ -48,6 +48,11 @@ const memoryFragmentsData = [
     pt: "Eu não tô querendo brandir este ideal de salvar os fracos. É que, desde sempre, vai contra a minha natureza deixar as coisas de lado quando vejo um erro. Eu nunca consegui me livrar deste hábito. A deusa da justiça cobre os olhos para manter a equidade da lei e as pessoas, a fim de se protegerem, fecham os olhos para várias coisas. Mesmo assim, eu não quero afastar as mãos que se agarram em mim por ajuda. Por isso eu gostaria de manter os olhos abertos.",
     image: "/images/animes/higuruma.gif",
   },
+  {
+    en: "He acts clam, but he can be rash. He's smart, but doesn't always think things through.",
+    pt: "Ele parece calmo, mas consegue ser bem ríspido. É inteligente, mas nem sempre pensa em tudo.",
+    image: "/images/animes/hunter_x_hunter_kurapika.gif",
+  },
 
   // Bioshock
   {
@@ -299,6 +304,11 @@ const memoryFragmentsData = [
     en: "It's not about changing the world, but about doing our best to leave the world the way it is; it's about respecting the will of others and believing in your own.",
     pt: "Não se trata de mudar o mundo, mas sim de fazer o nosso melhor para deixar o mundo da forma que é, é sobre respeitar a vontade dos outros e acreditar na sua prórpia",
     image: "/images/games/metal_gear_solid_4.gif",
+  },
+  {
+    en: "Remember, real heroes are never as polished as the legends that surround them.",
+    pt: "Lembre-se, os verdadeiros heróis nunca são tão perfeitos quanto as lendas que os cercam.",
+    image: "/images/games/metal_gear_solid_peace_walker.gif",
   },
 
   // Silent Hill

@@ -27,7 +27,8 @@ const gifs = [
   { src: "/images/animes/vinland_saga.gif", alt: "VinlandSaga", interest: "Vinland Saga" },
   { src: "/images/animes/cowboy_bebop.gif", alt: "CowboyBebop", interest: "Cowboy Bebop" },
   { src: "/images/animes/higuruma.gif", alt: "Higuruma", interest: "Jujutsu Kaisen" },
-  { src: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif", alt: "fullmetal_alchemist_brotherhood", interest: "Fullmetal Alchemist Brotherhood" }  
+  { src: "/images/animes/fullmetal_alchemist_brotherhood_edward.gif", alt: "fullmetal_alchemist_brotherhood", interest: "Fullmetal Alchemist Brotherhood" } , 
+  { src: "/images/animes/hunter_x_hunter.gif", alt: "hunter_x_hunter", interest: "Hunter X Hunter" }
 ];
 
 export default function Interests() {
