@@ -24,6 +24,7 @@ const gifs = [
   { src: "/images/animes/zangetsu.png", alt: "Zangetsu", interest: "Bleach" },
   { src: "/images/games/silent_hill_2.gif", alt: "SilentHill2", interest: "Silent Hill" },
   { src: "/images/games/silent_hill_3.gif", alt: "SilentHill3", interest: "Silent Hill" },
+  { src: "/images/games/death_stranding.png", alt: "DeathStranding", interest: "Death Stranding" },
   { src: "/images/animes/vinland_saga.gif", alt: "VinlandSaga", interest: "Vinland Saga" },
   { src: "/images/animes/cowboy_bebop.gif", alt: "CowboyBebop", interest: "Cowboy Bebop" },
   { src: "/images/animes/higuruma.gif", alt: "Higuruma", interest: "Jujutsu Kaisen" },

@@ -397,6 +397,21 @@ const memoryFragmentsData = [
     pt: "As horas de tolice são medidas pelo relógio, mas da sabedoria, nenhum relógio pode medir.",
     image: "/images/games/devil_may_cry_5_V.gif",
   },
+  {
+    pt: "Você trilha um caminho que outros já percorreram e, por sua vez, ajuda a pavimentar o caminho para aqueles que virão depois." ,
+    en: "You walk a path others once did, and in turn, you help pave the way for those who follow.",
+    image: "/images/games/death_stranding.png"
+  },
+  {
+    pt: "Cada passo deixa uma marca no mundo. E são essas marcas que guiarão aqueles que vierem a seguir.",
+    en: "Every step leaves a mark on the world. And it is those marks that will guide those who come after.",
+    image: "/images/games/death_stranding.png"
+  },
+  {
+    pt: "Quanto mais perto a gente fica das pessoas enquanto elas estão vivas, mais forte fica o vínculo com elas no nosso coração.",
+    en: "The closer we get to people while they are alive, the stronger the bond with them in our hearts.",
+    image: "/images/games/death_stranding.png"
+  }
 ];
 
 export default function MemoryFragments() {
