@@ -408,6 +408,16 @@ const memoryFragmentsData = [
     image: "/images/games/death_stranding.png"
   },
   {
+    pt: "Está vendo essas pegadas que você está deixando para trás? Se você fosse um espião em uma missão, você teria falhado. Mas você não é. Então, tenha orgulho desses rastros. Eles são a prova de que você existe.",
+    en: "See those footprints you’re leaving behind? If you were a spy on a mission, you would have failed, but you’re not. So be proud of those tracks. They’re proof you exist.",
+    image: "/images/games/death_stranding.png"
+  },
+  {
+    pt: "Quando ajuda seus semelhantes, cê cria laços duradouros, nunca esqueça que cê não ta sozinho Sam.",
+    en: "When you help others, you create lasting bonds; never forget that you're not alone, Sam.",
+    image: "/images/games/death_stranding.png"
+  },
+  {
     pt: "Quanto mais perto a gente fica das pessoas enquanto elas estão vivas, mais forte fica o vínculo com elas no nosso coração.",
     en: "The closer we get to people while they are alive, the stronger the bond with them in our hearts.",
     image: "/images/games/death_stranding.png"
