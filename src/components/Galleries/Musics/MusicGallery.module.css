@@ -68,6 +68,7 @@
     height: 180px; 
     padding: 10px 15px;
     scrollbar-width: none;
+    max-width: 300px;
   }
   
   .vinylGallery::-webkit-scrollbar { 

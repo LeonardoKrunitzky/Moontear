@@ -77,7 +77,7 @@
 
 .gameItem:hover,
 .gameItem.active {
-  width: 175px;
+  width: 50px;
   z-index: 10;
 }
 
@@ -110,7 +110,7 @@
     inset 0 1px 2px rgba(160, 255, 160, 0.55);
 }
 
-.case_pc,
+.case_steam,
 .case_ps2,
 .case_ps3,
 .case_ps1 {
@@ -141,7 +141,7 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(10, 75, 10, 0.75));
 }
 
-.case_pc .caseSpine,
+.case_steam .caseSpine,
 .case_ps2 .caseSpine,
 .case_ps3 .caseSpine,
 .case_ps1 .caseSpine {
@@ -188,7 +188,7 @@
   color: #ffffff;
 }
 
-.header_pc {
+.header_steam {
   background: linear-gradient(90deg, #171a21 0%, #2a475e 100%);
   color: #e5e7eb;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -212,7 +212,7 @@
 
 .header_ps4 .platformIcon,
 .header_xbox .platformIcon,
-.header_pc .platformIcon,
+.header_steam .platformIcon,
 .header_ps3 .platformIcon,
 .header_ps2 .platformIcon,
 .header_ps1 .platformIcon {
@@ -385,6 +385,7 @@
     scrollbar-width: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.08);
     background: linear-gradient(to top, rgba(255, 255, 255, 0.03) 0%, transparent 25%);
+    max-width: 300px;
   }
 
   .gameGallery::-webkit-scrollbar,

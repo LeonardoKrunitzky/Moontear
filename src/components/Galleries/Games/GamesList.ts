@@ -39,7 +39,7 @@ export const games: Game[] = [
     src: `${BASE_PATH}/persona_4.jpg`,
     alt: "Persona 4",
     title: "Persona 4",
-    platform: "PC",
+    platform: "STEAM",
     showHeader: true,
   },
   {
@@ -100,7 +100,7 @@ export const games: Game[] = [
     src: `${BASE_PATH}/fallout_new_vegas.jpg`,
     alt: "Fallout New Vegas",
     title: "Fallout New Vegas",
-    platform: "PC",
+    platform: "STEAM",
     showHeader: true,
   },
   {
@@ -113,7 +113,7 @@ export const games: Game[] = [
     src: `${BASE_PATH}/silent_hill_3.jpg`,
     alt: "Silent Hill 3",
     title: "Silent Hill 3",
-    platform: "PC",
+    platform: "STEAM",
     showHeader: true,
   },
 ];
