@@ -1,0 +1,150 @@
+.posterGallery {
+  width: 100%;
+  height: 330px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: safe center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 15px 20px;
+  scrollbar-width: thin;
+}
+
+.posterGallery::after {
+  content: "";
+  flex: 0 0 170px;
+}
+
+.posterItem {
+  position: relative;
+  perspective: 700px;
+  width: clamp(45px, 6vw, 75px);
+  flex-shrink: 0;
+  transition: width 0.4s ease;
+}
+
+.posterItem:hover {
+  width: 185px;
+  z-index: 10;
+}
+
+/* Estrutura do Pôster Vertical */
+.posterFrame {
+  position: relative;
+  width: 175px;
+  height: 255px;
+  transform: rotateX(2deg) rotateY(22deg);
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease, margin-top 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 2px;
+  background: #111;
+  padding: 4px; /* Borda interna estilo pôster emoldurado */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: -8px 6px 18px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.posterItem:hover .posterFrame {
+  transform: rotateX(0deg) rotateY(5deg);
+  width: 185px;
+  height: 270px;
+  margin-top: -6px;
+  box-shadow: -4px 10px 25px rgba(0, 0, 0, 0.85);
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Brilho de papel couche + marca sutil de dobra de pôster */
+.posterTexture {
+  position: absolute;
+  inset: 4px;
+  background: 
+    /* Linha horizontal sutil de dobra ao meio */
+    linear-gradient(
+      to bottom,
+      transparent 49.5%,
+      rgba(255, 255, 255, 0.08) 50%,
+      rgba(0, 0, 0, 0.25) 50.5%,
+      transparent 51%
+    ),
+    /* Linha vertical sutil de dobra ao meio */
+    linear-gradient(
+      to right,
+      transparent 49.5%,
+      rgba(255, 255, 255, 0.06) 50%,
+      rgba(0, 0, 0, 0.2) 50.5%,
+      transparent 51%
+    ),
+    /* Reflexo de luz no papel */
+    linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.18) 0%,
+      transparent 40%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  pointer-events: none;
+}
+
+.title {
+  color: #fff;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 185px;
+  left: 0;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.posterItem:hover .title {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .posterGallery {
+    height: 240px;
+    padding: 10px 15px;
+    scrollbar-width: none;
+  }
+
+  .posterGallery::-webkit-scrollbar {
+    display: none;
+  }
+
+  .posterGallery::after {
+    flex: 0 0 120px;
+  }
+
+  .posterItem:hover {
+    width: 130px;
+  }
+
+  .posterFrame {
+    width: 120px;
+    height: 175px;
+  }
+
+  .posterItem:hover .posterFrame {
+    width: 128px;
+    height: 185px;
+    margin-top: -4px;
+  }
+
+  .title {
+    width: 128px;
+    font-size: 0.8rem;
+  }
+}
